@@ -283,7 +283,7 @@ function prepare(context: string | undefined, location: string | string[] | { im
       } else {
         throw new Error('Could not read entry location');
       }
-    }).flat().map((location: string) => {
+    }).flat().map((location: string) => { // TODO this is kind of a sketchy type assumption - it should work but needs testing
       const dependency = isDependency(location);
 
       if (dependency) {
