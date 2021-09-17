@@ -1,5 +1,7 @@
-@herberttn/bytenode-webpack-plugin
+@wundero/bytenode-webpack-plugin
 ---
+
+Forked from @herberttn/bytenode-webpack-plugin, fixes WebPack 5 issue.
 
 [![ci][badge-workflow-ci]][badge-workflow-ci-link]
 [![coveralls][badge-coveralls]][badge-coveralls-link]
@@ -23,7 +25,7 @@ Inspired by [`bytenode-webpack-plugin`][link-to-bytenode-webpack-plugin].
 
 ### Install
 ```shell
-npm install --save @herberttn/bytenode-webpack-plugin
+npm install --save @wundero/bytenode-webpack-plugin
 ```
 
 ### Supports
@@ -31,7 +33,7 @@ npm install --save @herberttn/bytenode-webpack-plugin
   - :heavy_check_mark:  Default configuration
 - [`webpack`][link-to-webpack]
   - :heavy_check_mark:  v4
-  - :grey_question:  v5
+  - :heavy_check_mark:  v5
   - :heavy_check_mark:   `entry` as a `string` (e.g., `'src/index.js'`)
   - :heavy_check_mark:   `entry` as an `array` (e.g., `['src/index.js']`)
   - :heavy_check_mark:   `entry` as an `object` (e.g., `{ main: 'src/index.js' }`)
@@ -44,7 +46,7 @@ npm install --save @herberttn/bytenode-webpack-plugin
 
 ### Usage
 ```javascript
-import { BytenodeWebpackPlugin } from '@herberttn/bytenode-webpack-plugin';
+import { BytenodeWebpackPlugin } from '@wundero/bytenode-webpack-plugin';
 
 // webpack options
 module.exports = {

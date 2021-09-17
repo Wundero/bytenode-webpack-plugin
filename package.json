@@ -1,11 +1,11 @@
 {
-  "name": "@herberttn/bytenode-webpack-plugin",
+  "name": "@wundero/bytenode-webpack-plugin",
   "description": "Compile JavaScript into bytecode using bytenode",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "github:herberttn/bytenode-webpack-plugin"
+    "url": "github:wundero/bytenode-webpack-plugin"
   },
   "files": [
     "lib"
@@ -23,12 +23,12 @@
     "test:watch": "npm run test -- --watch"
   },
   "dependencies": {
-    "bytenode": "^1.2.2",
+    "bytenode": "^1.3.3",
     "slash": "3.0.0",
-    "webpack-virtual-modules": "^0.4.2"
+    "webpack-virtual-modules": "^0.4.3"
   },
   "peerDependencies": {
-    "webpack": "4.x"
+    "webpack": ">= 4.0 < 6"
   },
   "devDependencies": {
     "@jest/types": "26.6.2",
@@ -53,7 +53,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/herberttn/bytenode-webpack-plugin",
+  "homepage": "https://github.com/wundero/bytenode-webpack-plugin",
   "bugs": "https://github.com/herberttn/bytenode-webpack-plugin/issues",
   "keywords": [
     "bytecode",
