@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/wundero/bytenode-webpack-plugin/compare/v1.2.5...v1.2.6) (2021-09-17)
+
+
+### Bug Fixes
+
+* webpack v5 should work ([a0c446f](https://github.com/wundero/bytenode-webpack-plugin/commit/a0c446fadd721c559f0f6078cce1b94d8f4c648f))
+
 ## [1.2.5](https://github.com/herberttn/bytenode-webpack-plugin/compare/v1.2.4...v1.2.5) (2021-04-24)
 
 
